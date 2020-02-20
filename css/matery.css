@@ -1836,6 +1836,7 @@ footer a {
 }
 
 footer .copy-right {
+    align: center;
     color: #dbdbdb;
 }
 
