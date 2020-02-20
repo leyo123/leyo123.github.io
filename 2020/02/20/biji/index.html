@@ -10,10 +10,9 @@
 本地安装NodeJs
 GitHub账号
 
-###1.本地安装Git
- 1.1 Git下载地址 git官网
+1.本地安装Git 1.1 Git下载地址 git官网
 
-因为官网下载会比较慢，推荐使用淘宝镜像快速下载 ">
+因为官网下载会比较慢，推荐使用淘宝镜像快速下载 点击下载">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -34,7 +33,8 @@ GitHub账号
 
     <script src="/libs/jquery/jquery.min.js"></script>
     
-<meta name="generator" content="Hexo 4.2.0"></head>
+<meta name="generator" content="Hexo 4.2.0"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
 
 
 <body>
@@ -393,9 +393,30 @@ GitHub账号
                 
 
                 
-
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
+                    2020-02-20
+                </div>
                 
 
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    955
+                </div>
+                
+
+                
+		<div class="info-break-policy">
+                <i class="fa fa-pencil"></i> 作者: 简无言
+                
+		
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    3 分
+                </div>
                 
 
                 
@@ -410,26 +431,100 @@ GitHub账号
 <li><strong>本地安装NodeJs</strong></li>
 <li><strong>GitHub账号</strong></li>
 </ol>
-<p>###1.本地安装Git</p>
-<p> 1.1 Git下载地址 <em><a href="https://git-scm.com/" target="_blank" rel="noopener">git官网</a></em></p>
+<h3 id="1-本地安装Git"><a href="#1-本地安装Git" class="headerlink" title="1.本地安装Git"></a>1.本地安装Git</h3><p> 1.1 Git下载地址 <em><a href="https://git-scm.com/" target="_blank" rel="noopener">git官网</a></em></p>
 <blockquote>
 <p>因为官网下载会比较慢，推荐使用淘宝镜像快速下载 <em><a href="https://cdn.npm.taobao.org/dist/git-for-windows/v2.25.0.windows.1/Git-2.25.0-32-bit.exe" target="_blank" rel="noopener">点击下载</a></em>         &amp;nbsp&amp;nbsp下载完后点击安装文件。安装完输入 “git –version”&amp;nbsp出现版本数即为成功。</p>
 </blockquote>
 <p>1.2 Git常用命令：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">#使用前配置全局信息</span><br><span class="line">git config --global user.name &#39;你的名字&#39;</span><br><span class="line">git config --global user.email &#39;你的邮箱&#39;</span><br><span class="line">#查看是否已配置成功</span><br><span class="line">git config --list --global</span><br><span class="line"></span><br><span class="line">#在你需要使用Git的文件夹下运行</span><br><span class="line">git init                        #初始化</span><br><span class="line">git add .                        #添加变更文件到暂存区</span><br><span class="line">git status                        #查看变更信息</span><br><span class="line">git commit -m &#39;你需要写的信息&#39;        #提交到工作区</span><br><span class="line">git remote add origin https:&#x2F;&#x2F;github.com&#x2F;用户名&#x2F;仓库名.git    #添加Github远程连接</span><br><span class="line">git push origin                 #上传到GitHub</span><br><span class="line">git push origin -f                #强制上传到GitHub</span><br></pre></td></tr></table></figure>
+<pre><code>#使用前配置全局信息
+git config --global user.name &#39;你的名字&#39;
+git config --global user.email &#39;你的邮箱&#39;
+#查看是否已配置成功
+git config --list --global
 
-<h3 id="2-本地安装NodeJs"><a href="#2-本地安装NodeJs" class="headerlink" title="2.本地安装NodeJs"></a>2.本地安装NodeJs</h3><p>2.1 NodeJs <em><a href="http://nodejs.cn/download/" target="_blank" rel="noopener">下载地址</a></em> &amp;nbsp下载安装好，输入 node -v 查询版本出现版本数即可。</p>
+#在你需要使用Git的文件夹下运行
+git init                        #初始化
+git add .                        #添加变更文件到暂存区
+git status                        #查看变更信息
+git commit -m &#39;你需要写的信息&#39;        #提交到工作区
+git remote add origin https://github.com/用户名/仓库名.git    #添加Github远程连接
+git push origin                 #上传到GitHub
+git push origin -f                #强制上传到GitHub</code></pre><h3 id="2-本地安装NodeJs"><a href="#2-本地安装NodeJs" class="headerlink" title="2.本地安装NodeJs"></a>2.本地安装NodeJs</h3><p>2.1 NodeJs <em><a href="http://nodejs.cn/download/" target="_blank" rel="noopener">下载地址</a></em> &amp;nbsp下载安装好，输入 node -v 查询版本出现版本数即可。</p>
 <h3 id="3-GitHub注册"><a href="#3-GitHub注册" class="headerlink" title="3. GitHub注册"></a>3. GitHub注册</h3><p>3.1 创建GitHub仓库&amp;nbsp例：账号名为：leyo123&amp;nbsp则仓库名应为：leyo123.github.io</p>
 <h2 id="二-博客开发"><a href="#二-博客开发" class="headerlink" title="二.博客开发"></a>二.博客开发</h2><h3 id="1-安装Hexo"><a href="#1-安装Hexo" class="headerlink" title="1. 安装Hexo"></a>1. 安装Hexo</h3><p>在你想要保存博客文件的路径上创建文件夹，如E:\my\hexo_blog，按住 win+r 弹出框里输入 cmd 进入控制台</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">#进入博客文件夹的上一级目录 </span><br><span class="line">cd E:\my</span><br><span class="line"># 安装hexo</span><br><span class="line">npm install -g hexo-cli</span><br><span class="line">#初始化文件夹</span><br><span class="line">hexo init hexo_blog </span><br><span class="line">#进入博客文件夹</span><br><span class="line">cd E:\my\hexo_blog</span><br><span class="line"># 安装博客需要的依赖文件</span><br><span class="line">npm install  </span><br><span class="line">hexo命令 官网文档</span><br><span class="line"></span><br><span class="line">hexo cl    #清理</span><br><span class="line">hexo g    #生成</span><br><span class="line">hexo s    #本地服务 </span><br><span class="line">hexo d    #发布</span><br><span class="line">本地测试 http:&#x2F;&#x2F;locakhost:4000</span><br></pre></td></tr></table></figure>
+<pre><code>#进入博客文件夹的上一级目录 
+cd E:\my
+# 安装hexo
+npm install -g hexo-cli
+#初始化文件夹
+hexo init hexo_blog 
+#进入博客文件夹
+cd E:\my\hexo_blog
+# 安装博客需要的依赖文件
+npm install  
+hexo命令 官网文档
 
-<h3 id="2-hexo配置"><a href="#2-hexo配置" class="headerlink" title="2.hexo配置"></a>2.hexo配置</h3><p>2.1 hexo 目录结构</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">_config.yml          配置文件</span><br><span class="line"></span><br><span class="line">_public            生成的静态文件，这个目录最终会发布到服务器  </span><br><span class="line"></span><br><span class="line">_scaffolds         通用模板  </span><br><span class="line"></span><br><span class="line">_source         保存编写的markdown文件</span><br><span class="line"></span><br><span class="line">drafts            草稿文件</span><br><span class="line"></span><br><span class="line">themes             博客主题</span><br><span class="line"></span><br><span class="line">node_modules     类库</span><br></pre></td></tr></table></figure>
+hexo cl    #清理
+hexo g    #生成
+hexo s    #本地服务 
+hexo d    #发布
+本地测试 http://locakhost:4000 </code></pre><h3 id="2-hexo配置"><a href="#2-hexo配置" class="headerlink" title="2.hexo配置"></a>2.hexo配置</h3><p>2.1 hexo 目录结构</p>
+<pre><code>_config.yml          配置文件
 
-<p>2.2 _config.yml配置 以我的为例 要修改的地方就两处：#网站，#发布</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line">#网站</span><br><span class="line">title: 简无言    #你的博客名</span><br><span class="line">subtitle: 懒癌晚期，随缘更新 #博客副标题</span><br><span class="line">description: #博客描述</span><br><span class="line">keywords: #博客关键词</span><br><span class="line">author: 简无言 #作者(用于主题显示文章的作者)</span><br><span class="line">language: zh-CN #博客语言  </span><br><span class="line">timezone: #时区</span><br><span class="line"></span><br><span class="line">#网址</span><br><span class="line">url: #网址    </span><br><span class="line">root: #网站根目录    </span><br><span class="line">permalink: #文章的永久链接格式 :year&#x2F;:month&#x2F;:day&#x2F;:title&#x2F;</span><br><span class="line">permalink_defaults:    #永久链接中各部分的默认值    </span><br><span class="line">pretty_urls: #改写 permalink 的值来美化 URL    </span><br><span class="line">pretty_urls.trailing_index: #是否在永久链接中保留尾部的 index.html，设置为 false时去除</span><br><span class="line">pretty_urls.trailing_html: #是否在永久链接中保留尾部的 .html, 设置为 false 时去除</span><br><span class="line"></span><br><span class="line">#目录(基本不需改)</span><br><span class="line">source_dir        #资源文件夹，这个文件夹用来存放内容</span><br><span class="line">public_dir        #公共文件夹，这个文件夹用于存放chang生成的站点文件</span><br><span class="line">tag_dir           # 标签文件夹</span><br><span class="line">archive_dir       # 归档文件夹</span><br><span class="line">category_dir    ##分类文件夹</span><br><span class="line">code_dir        #Include code 文件夹，source_dir 下的子目录</span><br><span class="line">i18n_dir        #国际化（i18n）文件夹</span><br><span class="line">skip_render       # 跳过指定文件的渲染。(常用于跳过GitHub的README.md渲染)</span><br><span class="line"></span><br><span class="line">#分页</span><br><span class="line">per_page        #每页显示的文章量 (0 关闭分页功能,默认10)</span><br><span class="line">pagination_dir   # 分页目录</span><br><span class="line"></span><br><span class="line">#主题</span><br><span class="line">theme：#想要的主题名称，一定要与themes文件夹下主题名称一致</span><br><span class="line"></span><br><span class="line">#发布</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https:&#x2F;&#x2F;github.com&#x2F;leyo123&#x2F;leyo123.github.io.git     #你的仓库地址</span><br><span class="line">  branch: master #分支</span><br></pre></td></tr></table></figure>
-<h3 id="3-项目部署到github上"><a href="#3-项目部署到github上" class="headerlink" title="3.项目部署到github上"></a>3.项目部署到github上</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cmd进入博客根目录下</span><br><span class="line">输入命令： hexo g    #生成</span><br><span class="line">生成相关文件后输入命令： hexo d    #发布</span><br><span class="line">测试：leyo123.github.io</span><br></pre></td></tr></table></figure>
-<h2 id="三-参考文献"><a href="#三-参考文献" class="headerlink" title="三.参考文献"></a>三.参考文献</h2><p>以上就是我搭建博客的笔记这里在附上一篇大佬的教程： <a href="https://godweiyang.com/2018/04/13/hexo-blog/" target="_blank" rel="noopener">点击查看</a></p>
+_public            生成的静态文件，这个目录最终会发布到服务器  
+
+_scaffolds         通用模板  
+
+_source         保存编写的markdown文件
+
+drafts            草稿文件
+
+themes             博客主题
+
+node_modules     类库</code></pre><p>2.2 _config.yml配置 以我的为例 要修改的地方就两处：#网站，#发布</p>
+<pre><code>#网站
+title: 简无言    #你的博客名
+subtitle: 懒癌晚期，随缘更新 #博客副标题
+description: #博客描述
+keywords: #博客关键词
+author: 简无言 #作者(用于主题显示文章的作者)
+language: zh-CN #博客语言  
+timezone: #时区
+
+#网址
+url: #网址    
+root: #网站根目录    
+permalink: #文章的永久链接格式 :year/:month/:day/:title/
+permalink_defaults:    #永久链接中各部分的默认值    
+pretty_urls: #改写 permalink 的值来美化 URL    
+pretty_urls.trailing_index: #是否在永久链接中保留尾部的 index.html，设置为 false时去除
+pretty_urls.trailing_html: #是否在永久链接中保留尾部的 .html, 设置为 false 时去除
+
+#目录(基本不需改)
+source_dir        #资源文件夹，这个文件夹用来存放内容
+public_dir        #公共文件夹，这个文件夹用于存放chang生成的站点文件
+tag_dir           # 标签文件夹
+archive_dir       # 归档文件夹
+category_dir    ##分类文件夹
+code_dir        #Include code 文件夹，source_dir 下的子目录
+i18n_dir        #国际化（i18n）文件夹
+skip_render       # 跳过指定文件的渲染。(常用于跳过GitHub的README.md渲染)
+
+#分页
+per_page        #每页显示的文章量 (0 关闭分页功能,默认10)
+pagination_dir   # 分页目录
+
+#主题
+theme：#想要的主题名称，一定要与themes文件夹下主题名称一致
+
+#发布
+deploy:
+  type: git
+  repo: https://github.com/leyo123/leyo123.github.io.git     #你的仓库地址
+  branch: master #分支</code></pre><h3 id="3-项目部署到github上"><a href="#3-项目部署到github上" class="headerlink" title="3.项目部署到github上"></a>3.项目部署到github上</h3><pre><code>cmd进入博客根目录下
+输入命令： hexo g    #生成
+生成相关文件后输入命令： hexo d    #发布
+测试：leyo123.github.io</code></pre><h2 id="三-参考文献"><a href="#三-参考文献" class="headerlink" title="三.参考文献"></a>三.参考文献</h2><p>以上就是我搭建博客的笔记这里在附上一篇大佬的教程： <a href="https://godweiyang.com/2018/04/13/hexo-blog/" target="_blank" rel="noopener">点击查看</a></p>
 
             </div>
             <hr/>
@@ -682,10 +777,9 @@ GitHub账号
 本地安装NodeJs
 GitHub账号
 
-###1.本地安装Git
- 1.1 Git下载地址 git官网
+1.本地安装Git 1.1 Git下载地址 git官网
 
-因为官网下载会比较慢，推荐使用淘宝镜像快速下载 
+因为官网下载会比较慢，推荐使用淘宝镜像快速下载 点击下载
                         
                     </div>
                     <div class="publish-info">
@@ -847,6 +941,9 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <!-- |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a> -->
             <!-- |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a> -->
             <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">8.2k</span>&nbsp;字
             
             
             
